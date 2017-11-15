@@ -15,6 +15,8 @@
 		3AFA1CE31FBBDDA0002FCFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFA1CE11FBBDDA0002FCFFB /* LaunchScreen.storyboard */; };
 		3AFA1CEE1FBBDDA0002FCFFB /* spotifyOnWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA1CED1FBBDDA0002FCFFB /* spotifyOnWatchTests.swift */; };
 		3AFA1CF91FBBDDA0002FCFFB /* spotifyOnWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA1CF81FBBDDA0002FCFFB /* spotifyOnWatchUITests.swift */; };
+		3AFA1D091FBBDDEF002FCFFB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D071FBBDDDE002FCFFB /* AVFoundation.framework */; };
+		3AFA1D0A1FBBDDF7002FCFFB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D081FBBDDE4002FCFFB /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3AFA1CF41FBBDDA0002FCFFB /* spotifyOnWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifyOnWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFA1CF81FBBDDA0002FCFFB /* spotifyOnWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyOnWatchUITests.swift; sourceTree = "<group>"; };
 		3AFA1CFA1FBBDDA0002FCFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFA1D071FBBDDDE002FCFFB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3AFA1D081FBBDDE4002FCFFB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFA1D0A1FBBDDF7002FCFFB /* SystemConfiguration.framework in Frameworks */,
+				3AFA1D091FBBDDEF002FCFFB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				3AFA1CEC1FBBDDA0002FCFFB /* spotifyOnWatchTests */,
 				3AFA1CF71FBBDDA0002FCFFB /* spotifyOnWatchUITests */,
 				3AFA1CD31FBBDDA0002FCFFB /* Products */,
+				3AFA1D061FBBDDDE002FCFFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +133,15 @@
 				3AFA1CFA1FBBDDA0002FCFFB /* Info.plist */,
 			);
 			path = spotifyOnWatchUITests;
+			sourceTree = "<group>";
+		};
+		3AFA1D061FBBDDDE002FCFFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFA1D081FBBDDE4002FCFFB /* SystemConfiguration.framework */,
+				3AFA1D071FBBDDDE002FCFFB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

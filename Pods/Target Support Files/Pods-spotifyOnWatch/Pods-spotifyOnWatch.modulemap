@@ -1,6 +1,0 @@
-framework module Pods_spotifyOnWatch {
-  umbrella header "Pods-spotifyOnWatch-umbrella.h"
-
-  export *
-  module * { export * }
-}
