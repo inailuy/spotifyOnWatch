@@ -18,6 +18,15 @@
 		3AFA1CF91FBBDDA0002FCFFB /* spotifyOnWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA1CF81FBBDDA0002FCFFB /* spotifyOnWatchUITests.swift */; };
 		3AFA1D091FBBDDEF002FCFFB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D071FBBDDDE002FCFFB /* AVFoundation.framework */; };
 		3AFA1D0A1FBBDDF7002FCFFB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D081FBBDDE4002FCFFB /* SystemConfiguration.framework */; };
+		3AFA1D0E1FBBDF99002FCFFB /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0B1FBBDF99002FCFFB /* SpotifyMetadata.framework */; };
+		3AFA1D0F1FBBDF99002FCFFB /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0B1FBBDF99002FCFFB /* SpotifyMetadata.framework */; };
+		3AFA1D101FBBDF99002FCFFB /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0B1FBBDF99002FCFFB /* SpotifyMetadata.framework */; };
+		3AFA1D111FBBDF99002FCFFB /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0C1FBBDF99002FCFFB /* SpotifyAudioPlayback.framework */; };
+		3AFA1D121FBBDF99002FCFFB /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0C1FBBDF99002FCFFB /* SpotifyAudioPlayback.framework */; };
+		3AFA1D131FBBDF99002FCFFB /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0C1FBBDF99002FCFFB /* SpotifyAudioPlayback.framework */; };
+		3AFA1D141FBBDF99002FCFFB /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0D1FBBDF99002FCFFB /* SpotifyAuthentication.framework */; };
+		3AFA1D151FBBDF99002FCFFB /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0D1FBBDF99002FCFFB /* SpotifyAuthentication.framework */; };
+		3AFA1D161FBBDF9A002FCFFB /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFA1D0D1FBBDF99002FCFFB /* SpotifyAuthentication.framework */; };
 		605E154F44ED85EA515B72C6 /* Pods_spotifyOnWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958026F29A6877041918CAE6 /* Pods_spotifyOnWatchTests.framework */; };
 		ADB6782D654F8B1524EF08FB /* Pods_spotifyOnWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AE98D307DDE844A409A895 /* Pods_spotifyOnWatch.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +66,9 @@
 		3AFA1CFA1FBBDDA0002FCFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AFA1D071FBBDDDE002FCFFB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3AFA1D081FBBDDE4002FCFFB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3AFA1D0B1FBBDF99002FCFFB /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyMetadata.framework; path = SpotifySDK/SpotifyMetadata.framework; sourceTree = "<group>"; };
+		3AFA1D0C1FBBDF99002FCFFB /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAudioPlayback.framework; path = SpotifySDK/SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		3AFA1D0D1FBBDF99002FCFFB /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAuthentication.framework; path = SpotifySDK/SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		5469A0BF778FECAD4600DB71 /* Pods-spotifyOnWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotifyOnWatchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spotifyOnWatchTests/Pods-spotifyOnWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		958026F29A6877041918CAE6 /* Pods_spotifyOnWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spotifyOnWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14E73D32A354963A487D514 /* Pods-spotifyOnWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotifyOnWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spotifyOnWatch/Pods-spotifyOnWatch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,9 +84,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFA1D0E1FBBDF99002FCFFB /* SpotifyMetadata.framework in Frameworks */,
+				3AFA1D141FBBDF99002FCFFB /* SpotifyAuthentication.framework in Frameworks */,
 				3AFA1D0A1FBBDDF7002FCFFB /* SystemConfiguration.framework in Frameworks */,
 				3AFA1D091FBBDDEF002FCFFB /* AVFoundation.framework in Frameworks */,
 				ADB6782D654F8B1524EF08FB /* Pods_spotifyOnWatch.framework in Frameworks */,
+				3AFA1D111FBBDF99002FCFFB /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFA1D0F1FBBDF99002FCFFB /* SpotifyMetadata.framework in Frameworks */,
+				3AFA1D151FBBDF99002FCFFB /* SpotifyAuthentication.framework in Frameworks */,
 				605E154F44ED85EA515B72C6 /* Pods_spotifyOnWatchTests.framework in Frameworks */,
+				3AFA1D121FBBDF99002FCFFB /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFA1D101FBBDF99002FCFFB /* SpotifyMetadata.framework in Frameworks */,
+				3AFA1D161FBBDF9A002FCFFB /* SpotifyAuthentication.framework in Frameworks */,
 				2C85390DC1941D29FD13B9AD /* Pods_spotifyOnWatchUITests.framework in Frameworks */,
+				3AFA1D131FBBDF99002FCFFB /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +180,9 @@
 				C9AE98D307DDE844A409A895 /* Pods_spotifyOnWatch.framework */,
 				958026F29A6877041918CAE6 /* Pods_spotifyOnWatchTests.framework */,
 				16887AFAF733B06DB862A11A /* Pods_spotifyOnWatchUITests.framework */,
+				3AFA1D0C1FBBDF99002FCFFB /* SpotifyAudioPlayback.framework */,
+				3AFA1D0D1FBBDF99002FCFFB /* SpotifyAuthentication.framework */,
+				3AFA1D0B1FBBDF99002FCFFB /* SpotifyMetadata.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -640,6 +664,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8YR4WT3S5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifySDK",
+				);
 				INFOPLIST_FILE = spotifyOnWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulz.spotifyOnWatch;
@@ -656,6 +684,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8YR4WT3S5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifySDK",
+				);
 				INFOPLIST_FILE = spotifyOnWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulz.spotifyOnWatch;
@@ -673,6 +705,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8YR4WT3S5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifySDK",
+				);
 				INFOPLIST_FILE = spotifyOnWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulz.spotifyOnWatchTests;
@@ -691,6 +727,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8YR4WT3S5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifySDK",
+				);
 				INFOPLIST_FILE = spotifyOnWatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulz.spotifyOnWatchTests;
@@ -708,6 +748,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8YR4WT3S5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifySDK",
+				);
 				INFOPLIST_FILE = spotifyOnWatchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulz.spotifyOnWatchUITests;
@@ -725,6 +769,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8YR4WT3S5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifySDK",
+				);
 				INFOPLIST_FILE = spotifyOnWatchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulz.spotifyOnWatchUITests;
